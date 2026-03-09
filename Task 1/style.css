@@ -1,0 +1,60 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	background: #f4f4f4;
+}
+
+header {
+	text-align: center;
+	background: #222;
+	color: white;
+	padding: 30px;
+}
+
+.profile {
+	width: 120px;
+	border-radius: 50%;
+}
+
+nav {
+	background: #444;
+	text-align: center;
+	padding: 10px;
+}
+
+	nav a {
+		color: white;
+		margin: 15px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+section {
+	padding: 40px;
+	text-align: center;
+}
+
+.skill-box {
+	display: inline-block;
+	background: #007BFF;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+.project {
+	background: white;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+	background: #222;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
