@@ -2,59 +2,57 @@ body {
 	font-family: Arial;
 	margin: 0;
 	background: #f4f4f4;
+	text-align: center;
 }
 
 header {
-	text-align: center;
-	background: #222;
+	background: #333;
 	color: white;
-	padding: 30px;
+	padding: 20px;
 }
 
-.profile {
-	width: 120px;
-	border-radius: 50%;
+nav a {
+	color: white;
+	margin: 15px;
+	text-decoration: none;
+	font-weight: bold;
 }
 
-nav {
-	background: #444;
-	text-align: center;
-	padding: 10px;
+.hero {
+	padding: 40px;
+	background: linear-gradient(to right,#667eea,#764ba2);
+	color: white;
 }
 
-	nav a {
-		color: white;
-		margin: 15px;
-		text-decoration: none;
-		font-weight: bold;
+	.hero img {
+		width: 150px;
+		border-radius: 50%;
 	}
 
 section {
 	padding: 40px;
-	text-align: center;
 }
 
-.skill-box {
-	display: inline-block;
-	background: #007BFF;
+.skills span {
+	background: #333;
 	color: white;
-	padding: 10px 20px;
-	margin: 10px;
-	border-radius: 20px;
+	padding: 10px 15px;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 5px;
 }
 
 .project {
 	background: white;
+	margin: 15px auto;
 	padding: 20px;
-	margin: 20px;
-	border-radius: 10px;
+	width: 60%;
+	border-radius: 8px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 footer {
-	background: #222;
+	background: #333;
 	color: white;
-	text-align: center;
-	padding: 15px;
+	padding: 10px;
 }
-
