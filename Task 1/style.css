@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: Arial;
 	margin: 0;
@@ -41,6 +44,12 @@ section {
 	display: inline-block;
 	border-radius: 5px;
 }
+	.skills span:hover {
+		background: #764ba2;
+		cursor: pointer;
+		transform: scale(1.1);
+		transition: 0.3s;
+	}
 
 .project {
 	background: white;
@@ -50,6 +59,10 @@ section {
 	border-radius: 8px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+	.project:hover {
+		transform: scale(1.03);
+		transition: 0.3s;
+	}
 
 footer {
 	background: #333;
